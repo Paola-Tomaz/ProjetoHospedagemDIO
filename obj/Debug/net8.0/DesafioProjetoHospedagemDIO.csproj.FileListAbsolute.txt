@@ -1,0 +1,14 @@
+D:\Curso DIO\DesafioProjetoHospedagemDIO\bin\Debug\net8.0\DesafioProjetoHospedagemDIO.exe
+D:\Curso DIO\DesafioProjetoHospedagemDIO\bin\Debug\net8.0\DesafioProjetoHospedagemDIO.deps.json
+D:\Curso DIO\DesafioProjetoHospedagemDIO\bin\Debug\net8.0\DesafioProjetoHospedagemDIO.runtimeconfig.json
+D:\Curso DIO\DesafioProjetoHospedagemDIO\bin\Debug\net8.0\DesafioProjetoHospedagemDIO.dll
+D:\Curso DIO\DesafioProjetoHospedagemDIO\bin\Debug\net8.0\DesafioProjetoHospedagemDIO.pdb
+D:\Curso DIO\DesafioProjetoHospedagemDIO\obj\Debug\net8.0\DesafioProjetoHospedagemDIO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Curso DIO\DesafioProjetoHospedagemDIO\obj\Debug\net8.0\DesafioProjetoHospedagemDIO.AssemblyInfoInputs.cache
+D:\Curso DIO\DesafioProjetoHospedagemDIO\obj\Debug\net8.0\DesafioProjetoHospedagemDIO.AssemblyInfo.cs
+D:\Curso DIO\DesafioProjetoHospedagemDIO\obj\Debug\net8.0\DesafioProjetoHospedagemDIO.csproj.CoreCompileInputs.cache
+D:\Curso DIO\DesafioProjetoHospedagemDIO\obj\Debug\net8.0\DesafioProjetoHospedagemDIO.dll
+D:\Curso DIO\DesafioProjetoHospedagemDIO\obj\Debug\net8.0\refint\DesafioProjetoHospedagemDIO.dll
+D:\Curso DIO\DesafioProjetoHospedagemDIO\obj\Debug\net8.0\DesafioProjetoHospedagemDIO.pdb
+D:\Curso DIO\DesafioProjetoHospedagemDIO\obj\Debug\net8.0\DesafioProjetoHospedagemDIO.genruntimeconfig.cache
+D:\Curso DIO\DesafioProjetoHospedagemDIO\obj\Debug\net8.0\ref\DesafioProjetoHospedagemDIO.dll
