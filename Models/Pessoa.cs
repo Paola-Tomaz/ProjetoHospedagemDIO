@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,13 @@ public class Pessoa
     public Pessoa()
     {
     }
+=======
+namespace DesafioProjetoHospedagem.Models;
+
+public class Pessoa
+{
+    public Pessoa() { }
+>>>>>>> 918e80bed408d6d49de00e138359d248dc0237fc
 
     public Pessoa(string nome)
     {
@@ -24,4 +32,12 @@ public class Pessoa
         Nome = nome;
         Sobrenome = sobrenome;
     }
+<<<<<<< HEAD
 }
+=======
+
+    public string Nome { get; set; }
+    public string Sobrenome { get; set; }
+    public string NomeCompleto => $"{Nome} {Sobrenome}".ToUpper();
+}
+>>>>>>> 918e80bed408d6d49de00e138359d248dc0237fc
