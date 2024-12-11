@@ -1,21 +1,74 @@
-# DIO - Trilha .NET - Explorando a linguagem C#
-www.dio.me
+# Desafio de Projeto: Sistema de Hospedagem
 
-## Desafio de projeto
-Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de explorando a linguagem C#, da trilha .NET da DIO.
+Este repositório contém a implementação do desafio de projeto proposto pela **DIO (Digital Innovation One)** na trilha .NET, no módulo **Explorando a Linguagem C#**. O objetivo do projeto é construir um sistema de hospedagem para gerenciamento de reservas em hotéis.
 
-## Contexto
-Você foi contratado para construir um sistema de hospedagem, que será usado para realizar uma reserva em um hotel. Você precisará usar a classe Pessoa, que representa o hóspede, a classe Suíte, e a classe Reserva, que fará um relacionamento entre ambos.
+## 🏨 Contexto
 
-O seu programa deverá cálcular corretamente os valores dos métodos da classe Reserva, que precisará trazer a quantidade de hóspedes e o valor da diária, concedendo um desconto de 10% para caso a reserva seja para um período maior que 10 dias.
+Você foi contratado para desenvolver um sistema de hospedagem que realiza reservas de suítes para hóspedes. O sistema utiliza três classes principais:
 
-## Regras e validações
-1. Não deve ser possível realizar uma reserva de uma suíte com capacidade menor do que a quantidade de hóspedes. Exemplo: Se é uma suíte capaz de hospedar 2 pessoas, então ao passar 3 hóspedes deverá retornar uma exception.
-2. O método ObterQuantidadeHospedes da classe Reserva deverá retornar a quantidade total de hóspedes, enquanto que o método CalcularValorDiaria deverá retornar o valor da diária (Dias reservados x valor da diária).
-3. Caso seja feita uma reserva igual ou maior que 10 dias, deverá ser concedido um desconto de 10% no valor da diária.
+- **Pessoa**: Representa o hóspede.
+- **Suíte**: Representa a acomodação.
+- **Reserva**: Faz o relacionamento entre os hóspedes e a suíte, além de calcular os valores associados à reserva.
 
+## ✨ Funcionalidades
 
-![Diagrama de classe estacionamento](diagrama_classe_hotel.png)
+1. **Cadastro de Hóspedes e Suítes**:
+   - Criação de hóspedes utilizando a classe `Pessoa`.
+   - Cadastro de suítes com capacidade e valor da diária.
 
-## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+2. **Gerenciamento de Reservas**:
+   - Associação entre hóspedes e suítes.
+   - Cálculo do valor total da reserva com desconto para estadias longas.
+
+3. **Regras de Validação**:
+   - Não é permitido realizar uma reserva se o número de hóspedes exceder a capacidade da suíte.
+   - O método `ObterQuantidadeHospedes` retorna o número total de hóspedes.
+   - O método `CalcularValorDiaria` calcula o valor total da estadia (número de dias reservados x valor da diária).
+   - Um desconto de **10%** é aplicado para reservas de **10 dias ou mais**.
+
+## ✅ Requisitos
+
+- **Regra 1**: O número de hóspedes não pode ultrapassar a capacidade da suíte. Se isso ocorrer, o sistema deve lançar uma exceção.
+- **Regra 2**: Reservas de 10 dias ou mais recebem um desconto automático de 10% no valor total.
+
+## 💻 Tecnologias Utilizadas
+
+- **Linguagem**: C#
+- **Framework**: .NET
+
+## 🚀 Como Executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/sistema-hospedagem.git
+    ```
+
+2. **Navegue até o diretório do projeto**:
+   ```bash
+   cd DesafioHospedagemDIO
+   ```
+   
+3. **Compile e execute o projeto**:
+   ```bash
+   dotnet run
+    ```
+   
+## 📂 Estrutura do Projeto
+
+```plaintext
+📁 DesafioProjetoHospedagemDIO
+├── 📂 Models
+│   ├── Pessoa.cs
+│   ├── Suite.cs
+│   └── Reserva.cs
+├── Program.cs
+├── SistemaHospedagemDIO.csproj
+```
+## 🤝 Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+
+---
+
+Desenvolvido por [Paola](https://github.com/Paola-Tomaz) durante a trilha .NET da DIO.
+
