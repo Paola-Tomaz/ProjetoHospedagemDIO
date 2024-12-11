@@ -40,7 +40,7 @@ Você foi contratado para desenvolver um sistema de hospedagem que realiza reser
 
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/Paola-Tomaz/ProjetoHospedagemDIO.git]
+   git clone https://github.com/Paola-Tomaz/ProjetoHospedagemDIO.git
     ```
 
 2. **Navegue até o diretório do projeto**:
