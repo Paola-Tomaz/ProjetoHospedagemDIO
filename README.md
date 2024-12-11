@@ -40,12 +40,12 @@ Você foi contratado para desenvolver um sistema de hospedagem que realiza reser
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/sistema-hospedagem.git
+   git clone [https://github.com/Paola-Tomaz/ProjetoHospedagemDIO.git]
     ```
 
 2. **Navegue até o diretório do projeto**:
    ```bash
-   cd DesafioHospedagemDIO
+   cd DesafioProjetoHospedagemDIO
    ```
    
 3. **Compile e execute o projeto**:
@@ -62,7 +62,7 @@ Você foi contratado para desenvolver um sistema de hospedagem que realiza reser
 │   ├── Suite.cs
 │   └── Reserva.cs
 ├── Program.cs
-├── SistemaHospedagemDIO.csproj
+├── DesafioProjetoHospedagemDIO.csproj
 ```
 ## 🤝 Contribuições
 
